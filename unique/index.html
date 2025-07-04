@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unique Fashion | Premium Men's Boutique</title>
+  <meta name="description" content="Unique Fashion - Premium men's wear boutique. Discover suits, shirts, and more. Modern, sophisticated, and professional style." />
+  <!-- SEO & Social Meta Tags -->
+  <meta property="og:title" content="Unique Fashion | Premium Men's Boutique" />
+  <meta property="og:description" content="Discover premium men's suits, shirts, and more at Unique Fashion." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Unique Fashion | Premium Men's Boutique" />
+  <meta name="twitter:description" content="Discover premium men's suits, shirts, and more at Unique Fashion." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="nav nav-bar">
+      <div class="logo" aria-label="Unique Fashion Home">Unique Fashion</div>
+      <nav aria-label="Main Navigation">
+        <ul id="nav-list">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" tabindex="0">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu" aria-label="Mobile Navigation" tabindex="-1">
+      <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">&times;</button>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="hero hero-flex" id="home" aria-label="Hero Section" style="background-image: url('back.jpg'); background-size: cover; background-position: center;">
+      <div class="hero-anim-bg" aria-hidden="true"></div>
+      <div class="hero-left">
+        <h1 class="hero-title">Elevate Your Style with Unique Fashion</h1>
+        <p>Premium men's wear boutique for the modern gentleman. Discover sophistication, quality, and style in every piece.</p>
+        <a href="#products" class="cta-btn">Shop Now</a>
+      </div>
+      <div class="hero-right">
+        <!-- Removed hero image, now using background image -->
+      </div>
+    </section>
+    <div class="section-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,80 C480,0 960,160 1440,80 L1440,0 L0,0 Z" fill="#fff"/></svg>
+    </div>
+    <section class="usp-section" aria-label="Why Shop With Us?">
+      <div class="usp-title">Why Shop With Us?</div>
+      <div class="usp-grid">
+        <div class="usp-item">
+          <span class="usp-icon">🚚</span>
+          <div class="usp-heading">Free Shipping</div>
+          <div class="usp-desc">On all orders over $100</div>
+        </div>
+        <div class="usp-item">
+          <span class="usp-icon">🧵</span>
+          <div class="usp-heading">Premium Fabrics</div>
+          <div class="usp-desc">Only the finest materials</div>
+        </div>
+      </div>
+    </section>
+    <section class="products-section" id="products" aria-label="Featured Products">
+      <div class="products-title">Our Collection</div>
+      <div class="products product-grid">
+        <div class="product-card" tabindex="0" aria-label="Premium Suit Collection - Classic Navy, 150 cedis. Tailored fit, premium wool blend. Perfect for business or formal occasions.">
+          <img src="T1.jpg" alt="Premium Suit Collection" class="product-img" />
+          <div class="product-name">Premium Suit Collection</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Oxford Shirt Collection - Crisp White, 150 cedis. Breathable cotton, timeless essential for every wardrobe.">
+          <img src="T2.jpg" alt="Oxford Shirt Collection" class="product-img" />
+          <div class="product-name">Oxford Shirt Collection</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Linen Blazer - Lightweight and Versatile, 150 cedis. Perfect for smart-casual events.">
+          <img src="T3.jpg" alt="Linen Blazer" class="product-img" />
+          <div class="product-name">Linen Blazer</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Slim Fit Chinos - Modern Cut, 150 cedis. Stretch fabric, comfort meets style.">
+          <img src="T4.jpg" alt="Slim Fit Chinos" class="product-img" />
+          <div class="product-name">Slim Fit Chinos</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Casual Denim Jacket - Classic Style, 150 cedis. Versatile layering piece.">
+          <img src="T6.jpg" alt="Casual Denim Jacket" class="product-img" />
+          <div class="product-name">Casual Denim Jacket</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Formal Dress Shirt - Professional Look, 150 cedis. Perfect for office and formal events.">
+          <img src="T7.jpg" alt="Formal Dress Shirt" class="product-img" />
+          <div class="product-name">Formal Dress Shirt</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Wool Overcoat - Winter Essential, 150 cedis. Premium wool, elegant design.">
+          <img src="T8.jpg" alt="Wool Overcoat" class="product-img" />
+          <div class="product-name">Wool Overcoat</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Leather Jacket - Premium Quality, 150 cedis. Timeless style with modern edge.">
+          <img src="T9.jpg" alt="Leather Jacket" class="product-img" />
+          <div class="product-name">Leather Jacket</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Polo Shirt Collection - Casual Comfort, 150 cedis. Breathable fabric, versatile style.">
+          <img src="T10.jpg" alt="Polo Shirt Collection" class="product-img" />
+          <div class="product-name">Polo Shirt Collection</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Sweater Collection - Cozy Style, 150 cedis. Perfect for layering in cooler weather.">
+          <img src="T11.jpg" alt="Sweater Collection" class="product-img" />
+          <div class="product-name">Sweater Collection</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Trench Coat - Classic Elegance, 150 cedis. Water-resistant, sophisticated design.">
+          <img src="T12.jpg" alt="Trench Coat" class="product-img" />
+          <div class="product-name">Trench Coat</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Hoodie Collection - Casual Comfort, 150 cedis. Soft fabric, relaxed fit.">
+          <img src="T13.jpg" alt="Hoodie Collection" class="product-img" />
+          <div class="product-name">Hoodie Collection</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Blazer Collection - Smart Casual, 150 cedis. Versatile for work and social events.">
+          <img src="T14.jpg" alt="Blazer Collection" class="product-img" />
+          <div class="product-name">Blazer Collection</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Formal Suit - Business Professional, 150 cedis. Premium tailoring, perfect fit.">
+          <img src="T15.jpg" alt="Formal Suit" class="product-img" />
+          <div class="product-name">Formal Suit</div>
+          <div class="product-price">150 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Casual T-Shirt - Everyday Style, 250 cedis. Comfortable cotton, versatile design.">
+          <img src="N1.jpg" alt="Casual T-Shirt" class="product-img" />
+          <div class="product-name">Casual T-Shirt</div>
+          <div class="product-price">250 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Denim Shirt - Classic Style, 250 cedis. Versatile layering piece.">
+          <img src="N2.jpg" alt="Denim Shirt" class="product-img" />
+          <div class="product-name">Denim Shirt</div>
+          <div class="product-price">250 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Sweater Vest - Layering Essential, 250 cedis. Perfect for smart-casual looks.">
+          <img src="N3.jpg" alt="Sweater Vest" class="product-img" />
+          <div class="product-name">Sweater Vest</div>
+          <div class="product-price">250 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Cardigan Collection - Cozy Comfort, 250 cedis. Soft knit, relaxed fit.">
+          <img src="N4.jpg" alt="Cardigan Collection" class="product-img" />
+          <div class="product-name">Cardigan Collection</div>
+          <div class="product-price">250 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Henley Shirt - Casual Elegance, 250 cedis. Button-up style, comfortable fit.">
+          <img src="N5.jpg" alt="Henley Shirt" class="product-img" />
+          <div class="product-name">Henley Shirt</div>
+          <div class="product-price">250 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Polo Collection - Sporty Style, 250 cedis. Breathable fabric, athletic fit.">
+          <img src="N6.jpg" alt="Polo Collection" class="product-img" />
+          <div class="product-name">Polo Collection</div>
+          <div class="product-price">250 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Casual Shirt - Everyday Comfort, 250 cedis. Lightweight fabric, relaxed style.">
+          <img src="N7.jpg" alt="Casual Shirt" class="product-img" />
+          <div class="product-name">Casual Shirt</div>
+          <div class="product-price">250 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+        <div class="product-card" tabindex="0" aria-label="Formal Shirt - Professional Look, 250 cedis. Crisp design, perfect for office.">
+          <img src="N8.jpg" alt="Formal Shirt" class="product-img" />
+          <div class="product-name">Formal Shirt</div>
+          <div class="product-price">250 cedis</div>
+          <button class="add-cart-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
+    <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose" aria-label="Close product details">&times;</button>
+        <img src="" alt="Product Image" class="modal-img" id="modalImg" />
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-price" id="modalPrice"></div>
+        <div class="modal-desc" id="modalDesc"></div>
+        <button class="modal-buy-btn" id="modalBuyBtn">Buy Now</button>
+      </div>
+    </div>
+    <section class="contact-section contact-simple" id="contact" aria-label="Contact Us">
+      <div class="contact-title">Contact Us</div>
+      <form class="contact-form contact-form-simple" id="contactForm" autocomplete="off" novalidate aria-label="Contact Form">
+        <input type="text" id="name" name="name" required placeholder="Your Name" />
+        <input type="email" id="email" name="email" required placeholder="Email" />
+        <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+        <button type="submit" class="form-btn">Submit</button>
+        <div class="form-message" id="formMessage"></div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div>&copy; 2024 Unique Fashion. All rights reserved.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
